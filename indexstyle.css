@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #55878a; /* Soft background color */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container styling */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    padding: 30px;
+    background-color: #4fb9af; /* Blue background */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for header */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.header h1 {
+    margin: 0;
+    text-transform: uppercase; /* Text transformation */
+}
+
+.header p {
+    margin: 10px 0 0;
+}
+
+/* Box styling */
+.box {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for box */
+    border: 5px solid #4fb9af; /* Border around the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow around the box */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center;
+}
+
+.box h2 {
+    margin-top: 0;
+    text-transform: uppercase; /* Text transformation */
+    color: #4fb9af;
+}
+
+.box p {
+    margin: 10px 0;
+}
+
+/* Call-to-action button */
+.cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4fb9af;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow for button */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #005bb5;
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f6c492;
+    color: white;
+    margin-top: 20px;
+    border-radius: 8px; /* Rounded corners */
+}
